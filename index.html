@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SnapIt2PDF – Convert Multiple Screenshots to PDF Instantly | SS Services</title>
+  <title>SnapIt2PDF – Convert Multiple Screenshots to PDF Instantly | SSPL</title>
 
   <meta name="description" content="SnapIt2PDF converts multiple screenshots into a single PDF instantly. A fast, offline Windows tool by SS Services (SSPL). Simple, secure, and built for professionals.">
-  <meta name="keywords" content="SnapIt2PDF, screenshot to PDF, Windows PDF tool, SS Services, SSPL, desktop PDF converter, image to PDF, offline PDF tool, screenshot to PDF converter, free online">
+  <meta name="keywords" content="SnapIt2PDF, snapit2pdf, screenshot to PDF, Windows PDF tool, SS Services, SSPL, desktop PDF converter, image to PDF, offline PDF tool, screenshot to PDF converter, free online">
   <meta name="author" content="Sarvasiddhanta Services Private Limited">
   <meta name="google-adsense-account" content="ca-pub-2931901961774543">
-  <link rel="canonical" href="https://snapit2pdf-landing.onrender.com">
+  <link rel="canonical" href="https://snapit2pdf-landing.onrender.com/">
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
@@ -158,7 +158,6 @@
       color: #333;
     }
 
-    /* Responsive YouTube Embed */
     .video-wrapper {
       position: relative;
       padding-bottom: 56.25%;
@@ -221,7 +220,6 @@
           Capture • Paste • Convert • Save
         </p>
 
-        <!-- Updated Video Section -->
         <div style="margin: 30px 0;">
           <h2 style="color: #333;">🎥 SnapIt2PDF Installation Video</h2>
 
@@ -256,14 +254,16 @@
           “Installed perfectly and works fantastic for screenshot conversion.” – Early Tester
         </p>
 
-        <a href="https://f005.backblazeb2.com/file/Snap2PDF/SnapIt2PDF_Setup_1.0.0.exe"
+        <!-- UPDATED: Added id="download-btn" -->
+        <a id="download-btn"
+           href="https://f005.backblazeb2.com/file/Snap2PDF/SnapIt2PDF_Setup_1.0.0.exe"
            class="button-link"
            title="Download Snap2PDF">
           Download SnapIt2PDF for Windows
         </a>
 
         <p style="margin-top: 12px; font-size: 14px; color: #333;">
-          <strong>Note:</strong> Snap2PDF works only on Windows 10/11 (64‑bit).
+          <strong>Note:</strong> SnapIt2PDF works only on Windows 10/11 (64‑bit).
         </p>
 
       </div>
@@ -274,6 +274,16 @@
     </footer>
 
   </div>
+
+  <!-- NEW: GA4 Download Click Tracking -->
+  <script>
+    document.getElementById("download-btn").addEventListener("click", function () {
+      gtag('event', 'download_click', {
+        event_category: 'engagement',
+        event_label: 'SnapIt2PDF Installer'
+      });
+    });
+  </script>
 
 </body>
 </html>
